@@ -1,0 +1,1 @@
+-🐧 Ejercicios realizados durante el bootcamp CODE PRO 2025 de Penguin Academy, cubriendo Python, frontend y backend.
