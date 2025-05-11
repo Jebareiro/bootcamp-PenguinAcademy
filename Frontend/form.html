@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¿Qué pingüino informático sos?</title>  
+  <!-- Carga TailwindCSS desde CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-blue-950 to-black min-h-screen flex flex-col">
+
+  <!-- NAV: barra superior con el nombre del bootcamp -->
+  <nav class="bg-black bg-opacity-70 text-white flex items-center justify-between px-6 py-3 shadow-md">
+    <div class="flex items-center space-x-2">
+      <span class="font-bold text-lg text-blue-300">Penguin Bootcamp</span>
+    </div>
+    <div class="text-sm space-x-4">
+      <a href="#" class="hover:underline">Inicio</a>
+    </div>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="flex-grow flex items-center justify-center p-6">
+    <!-- Caja del formulario -->
+    <div class="bg-white bg-opacity-10 rounded-2xl shadow-xl p-8 max-w-md w-full text-white space-y-6 border-4 border-blue-400">
+      
+      <!-- Título principal -->
+      <h1 class="text-3xl font-bold text-center text-white">
+        ¿CREÁ UN PINGÜINO <span class="text-green-400">INFORMÁTICO</span>? 🐧💻
+      </h1>
+
+      <!-- Alias hacker -->
+      <div>
+        <label class="block text-sm font-semibold">Alias de Hacker</label>
+        <input type="text" placeholder="Ej: IceRoot"
+          class="w-full mt-1 p-2 rounded bg-white bg-opacity-90 text-black focus:outline-none focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <!-- Edad -->
+      <div>
+        <label class="block text-sm font-semibold">Edad Pingüina</label>
+        <input type="number"
+          class="w-full mt-1 p-2 rounded bg-white bg-opacity-90 text-black focus:outline-none focus:ring-2 focus:ring-blue-400">
+      </div>
+
+      <!-- Lenguaje favorito -->
+      <div>
+        <label class="block text-sm font-semibold">¿Cuál sería su lenguaje favorito?</label>
+        <select
+          class="w-full mt-1 p-2 rounded bg-white bg-opacity-90 text-black focus:outline-none focus:ring-2 focus:ring-cyan-300">
+          <option>Python</option>
+          <option>C++</option>
+          <option>PHP</option>
+          <option>C#</option>
+          <option>js</option>
+        </select>
+      </div>
+
+      <!-- Superpoder -->
+      <div>
+        <label class="block text-sm font-semibold">¿Qué superpoder informático tendría?</label>
+        <input type="text" placeholder="Ej: Compilar sin errores"
+          class="w-full mt-1 p-2 rounded bg-white bg-opacity-90 text-black focus:outline-none focus:ring-2 focus:ring-green-400">
+      </div>
+
+      <!-- Selección de pingüinos -->
+      <div>
+        <p class="text-sm font-semibold mb-2">Elegí tu MOOD PENGUIN:</p>
+        <div class="grid grid-cols-3 gap-3">
+          <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWxtNjRrM3pjN3hvOG10bTJxd3oybGh0aGZ3NnZieWM4Zno1dnFzYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oFYKw5OTZBZzVONpUh/giphy.gif"
+            class="rounded-xl hover:scale-105 hover:brightness-125 transition duration-300 cursor-pointer">
+          <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2Nka2JqdmprdXozNWU2anM2bHdlNmtjam9uejA5cDN4Y2NjNG9rNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h1knBYkjHMJLiWa9Qm/giphy.gif"
+            class="rounded-xl hover:scale-105 hover:brightness-125 transition duration-300 cursor-pointer">
+          <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3JiaWVmNWExZXk5d2M0aXJkY205dzY2bmUzb205YnBwdzdmbnk1MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kPm1xqFJzy1wlQ5LFV/giphy.gif"
+            alt="Sleeping Penguin" class="rounded-xl hover:scale-105 hover:brightness-125 transition duration-300 cursor-pointer">
+        </div>
+      </div>
+
+      <!-- Botón de enviar -->
+      <div class="text-center pt-4">
+        <button class="bg-green-500 hover:bg-green-600 transition px-6 py-2 rounded text-white font-bold">Enviar</button>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
